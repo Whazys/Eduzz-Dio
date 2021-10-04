@@ -1,21 +1,23 @@
-import React, { Component } from 'react'
-import Twitter from './Twitter'
+import React, { useState, useEffect } from 'react'
+import { ThemeContex, themes } from './Theme'
+import Card from './Card'
 
-class App extends Component {
-  render() {
-    const posts = [
-      {
-        title: 'xpto',
-        description: 'foo'
-      },
-      {
-        title: 'bar',
-        description: 'foo'
-      }
-    ]
+function App() {
+  const [token, setToken] = useState()
 
-    return <Twitter posts={posts} />
-  }
+  useEffect(() => {
+    setTimeout(() => {
+      setToken(() => {
+        'a4s6da5se718'
+      })
+    }, 4000)
+  }, [setToken])
+
+  return (
+    <ThemeContex.Provider value={{ ...themes.primary, token }}>
+      <Card />
+    </ThemeContex.Provider>
+  )
 }
 
 export default App
