@@ -18,5 +18,6 @@ Bootcamp - Dio / Eduzz
  #6 - ReactJs: Introdução (teoria + aplicação)
  
  #7 - Trabalhando com os componentes em React - Advanced 
-  * (aulas: Ciclos de vida, hooks e Context API realizando importações entre os arquivos)
+  * Aulas - 01: Ciclos de vida, hooks e Context API realizando importações entre os arquivos;
+  * Aulas - 02: Utilizando Fragments, Error Boundaries, Render Props, Refs e DOM
  
