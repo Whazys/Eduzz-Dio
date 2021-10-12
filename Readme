@@ -5,7 +5,7 @@ Bootcamp - Dio / Eduzz
 #2 - Aulas sobre: Tipos de variaveis, operadores, condicionais e repetições.
 
 #3 - Aulas avançadas ES¨6 - Eduzz;
- * Array, Default e Enhanced)
+ * Array, Default e Enhanced
  * Rest e Spread Operator 
  * Destructuring in React
  * Symbol / Iterators
@@ -22,3 +22,5 @@ Bootcamp - Dio / Eduzz
   * Aulas - 02: Utilizando Fragments, Error Boundaries, Render Props, Refs e DOM
  
  #8 - React Native (Muita dificuldade para emular o Android/VsCode, tiver que buscar auxílios externos da plataforma para adquirir conhecimento)
+  * Configurando ambiente React-Native
+  * Criando aplicativo de currículo 
