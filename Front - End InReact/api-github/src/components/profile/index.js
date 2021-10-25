@@ -13,7 +13,13 @@ const Profile = () => {
           <h1>Rafael Santos</h1>
           <S.WrapperUserName>
             <h3>UserName</h3>
-            <span>Whazys</span>
+            <a
+              href="https://github.com/Whazys/Eduzz-Dio/tree/main/Front%20-%20End%20InReact/api-github"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Whazys
+            </a>
           </S.WrapperUserName>
         </div>
         <S.WrapperStatusCount>
