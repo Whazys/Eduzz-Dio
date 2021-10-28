@@ -17,26 +17,30 @@ const Profile = () => {
           <S.WrapperUserName>
             <h3>UserName</h3>
             <a
-              href="https://github.com/Whazys/Eduzz-Dio/tree/main/Front%20-%20End%20InReact/api-github"
+              href={githubState.user.html_url}
               target="_blank"
               rel="noreferrer"
             >
-              Whazys
+              {githubState.user.login}
             </a>
           </S.WrapperUserName>
         </div>
         <S.WrapperStatusCount>
           <div>
             <h4>Fllowers</h4>
-            <span>5</span>
-          </div>
-          <div>
-            <h4>Starreds</h4>
-            <span>5</span>
+            <span>{githubState.user.followers}</span>
           </div>
           <div>
             <h4>Followings</h4>
-            <span>5</span>
+            <span>{githubState.user.following}</span>
+          </div>
+          <div>
+            <h4>Gists</h4>
+            <span>{githubState.user.public_gists}</span>
+          </div>
+          <div>
+            <h4>Repos</h4>
+            <span>{githubState.user.public_repos}</span>
           </div>
         </S.WrapperStatusCount>
       </S.WrapperInfoUser>
