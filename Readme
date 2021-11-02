@@ -25,4 +25,17 @@ Bootcamp - Dio / Eduzz
   * Configurando ambiente React-Native
   * Criando aplicativo de currículo 
 
-#9 - Criando interface: GitHub API
+ #9 - Criando interface: GitHub API
+
+ #10 - Mysql: Criação de tabelas/inserindo dados  
+
+ #11 - Introdução ao Mongo e Banco de dados Sql: Conceitos básicos relacionados ao NoSql; criação de colunas/chaves-valor.
+      * Schema Desing / JSON e BSON - Conceitos.
+
+ #12 - Introdução ao NodeJs com o JavaScript: Conceitos básicos; NPM, criação do package.json e server; importando módulos e visualização do consumo da memória; implementação a função setInterval.
+ 
+ #13 - Arquitetural Rest with NodeJs: Conceitos relacionados a Api do projeto; estruturação do Typescritp; Criando servidor express; Refatorando a rota de status.
+
+ #14 - Banco de Dados  Relacionais SQL: Conceitos relacionados à criação  de banco de dados e tabelas; Estrutura básica para conexão com os dados/ Desenvolvendo  a consulta de usuários por Id; Realizando tratamento de Erros; Desenvolvendo um Error Handling.
+
+ #15 - Microsserviços e Integrações com NodeJs: Instalação da biblioteca JWT; Criando token JWT; Desenvolvendo um middleware para as funções; Desenvolvendo a verificação  de validação de tokens; Refresh Token.
