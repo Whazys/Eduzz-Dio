@@ -39,3 +39,5 @@ Bootcamp - Dio / Eduzz
  #14 - Banco de Dados  Relacionais SQL: Conceitos relacionados à criação  de banco de dados e tabelas; Estrutura básica para conexão com os dados/ Desenvolvendo  a consulta de usuários por Id; Realizando tratamento de Erros; Desenvolvendo um Error Handling.
 
  #15 - Microsserviços e Integrações com NodeJs: Instalação da biblioteca JWT; Criando token JWT; Desenvolvendo um middleware para as funções; Desenvolvendo a verificação  de validação de tokens; Refresh Token.
+
+ #16 - Introdução em nuvem AWS: Conceitos relacionados a linguagem; criando pool de usuário com Amazon Cognito; Tabelas com DynamoDB e funções; Criações de API Gateway, integrações e rotas.
